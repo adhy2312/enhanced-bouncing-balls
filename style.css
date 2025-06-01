@@ -1,21 +1,33 @@
-body {
+html, body {
   margin: 0;
-  overflow: hidden;
-  background: #000;
-  font-family: Arial, sans-serif;
-  color: #fff;
-  text-align: center;
-  padding-top: 10px;
 }
 
-canvas {
-  display: block;
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+
+  color: transparent;
+  text-shadow: 0 0 4px white;
 }
 
 p {
-  font-size: 18px;
+  position: absolute;
+  margin: 0;
+  top: 35px;
+  right: 5px;
+  color: #aaa;
 }
